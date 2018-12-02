@@ -24,6 +24,7 @@ class CreateAccountVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -74,5 +75,13 @@ class CreateAccountVC: UIViewController {
     
     @IBAction func closePressed(_ sender: Any) {
         performSegue(withIdentifier: UNWIND, sender: nil)
+    }
+    
+    func setupView() {
+        usernameTxt.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedString.Key.foregroundColor: smackPurplePlaceholder])
+        
+        emailTxt.attributedPlaceholder = NSAttributedString(string: "email", attributes: [NSAttributedString.Key.foregroundColor: smackPurplePlaceholder])
+        
+        passwordTxt.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedString.Key.foregroundColor: smackPurplePlaceholder])
     }
 }
