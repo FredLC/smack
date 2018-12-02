@@ -25,6 +25,9 @@ let TO_AVATAR_PICKER = "toAvatarPicker"
 // Colors
 let smackPurplePlaceholder = #colorLiteral(red: 0.2392156863, green: 0.3320434093, blue: 0.7513638139, alpha: 0.5)
 
+// Notification Constants
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChanged")
+
 // User Defaults
 let TOKEN_KEY = "token"
 let LOGGED_IN_KEY = "loggedIn"
