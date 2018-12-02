@@ -56,7 +56,7 @@ class AuthService {
         ]
         
         Alamofire.request(URL_REGISTER, method: .post, parameters: body, encoding: JSONEncoding.default, headers: header).responseString { (response) in
-            if response.result == nil {
+            if response.result.error == nil {
                 completion(true)
             } else {
                 completion(false)
