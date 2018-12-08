@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48106AE221B5E38A0019B24B /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48106AE121B5E38A0019B24B /* MessageService.swift */; };
+		48106AE421B5E3EA0019B24B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48106AE321B5E3EA0019B24B /* Channel.swift */; };
 		4815730C21B5A1CA00C5A508 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815730A21B5A1CA00C5A508 /* ProfileVC.swift */; };
 		4815730D21B5A1CA00C5A508 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4815730B21B5A1CA00C5A508 /* ProfileVC.xib */; };
 		4817F03C21B49EC600616EB2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817F03B21B49EC600616EB2 /* CircleImage.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48106AE121B5E38A0019B24B /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		48106AE321B5E3EA0019B24B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		4815730A21B5A1CA00C5A508 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		4815730B21B5A1CA00C5A508 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		4817F03B21B49EC600616EB2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 		48B8D79721AC682300458A44 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				48106AE321B5E3EA0019B24B /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			children = (
 				48ED654521B0C34D00F780F9 /* AuthService.swift */,
 				4884ADDC21B449A8004B9C11 /* UserDataService.swift */,
+				48106AE121B5E38A0019B24B /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -322,7 +328,9 @@
 				48B8D79B21AC685900458A44 /* ChannelVC.swift in Sources */,
 				48D4B84C21B46FC8007554DC /* AvatarPickerVC.swift in Sources */,
 				48583BB321B1A53C0093B2EF /* RoundedButton.swift in Sources */,
+				48106AE421B5E3EA0019B24B /* Channel.swift in Sources */,
 				4817F03C21B49EC600616EB2 /* CircleImage.swift in Sources */,
+				48106AE221B5E38A0019B24B /* MessageService.swift in Sources */,
 				48B8D79921AC684900458A44 /* ChatVC.swift in Sources */,
 				4884ADDD21B449A8004B9C11 /* UserDataService.swift in Sources */,
 				48F9491221B0812900BD8265 /* CreateAccountVC.swift in Sources */,
