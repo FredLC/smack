@@ -25,6 +25,7 @@
 		48AB3E1C21BD780F00958370 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AB3E1A21BD780F00958370 /* AddChannelVC.xib */; };
 		48AE96DF21B05CF000933099 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE96DE21B05CF000933099 /* Constants.swift */; };
 		48AE96E121B0666900933099 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE96E021B0666900933099 /* LoginVC.swift */; };
+		48B752D121BF23DA00FEC74F /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B752D021BF23DA00FEC74F /* MessageCell.swift */; };
 		48B8D79421AC61D700458A44 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D79221AC61D700458A44 /* SWRevealViewController.m */; };
 		48B8D79921AC684900458A44 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D79821AC684900458A44 /* ChatVC.swift */; };
 		48B8D79B21AC685900458A44 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D79A21AC685900458A44 /* ChannelVC.swift */; };
@@ -58,6 +59,7 @@
 		48AB3E1A21BD780F00958370 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		48AE96DE21B05CF000933099 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		48AE96E021B0666900933099 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		48B752D021BF23DA00FEC74F /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		48B8D79121AC61D600458A44 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		48B8D79221AC61D700458A44 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		48B8D79321AC61D700458A44 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				48D4B84D21B471A9007554DC /* AvatarCell.swift */,
 				4817F03B21B49EC600616EB2 /* CircleImage.swift */,
 				48EEF42721BC82620047FEE6 /* ChannelCell.swift */,
+				48B752D021BF23DA00FEC74F /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				48EEF42821BC82620047FEE6 /* ChannelCell.swift in Sources */,
 				48B8D79B21AC685900458A44 /* ChannelVC.swift in Sources */,
 				48D4B84C21B46FC8007554DC /* AvatarPickerVC.swift in Sources */,
+				48B752D121BF23DA00FEC74F /* MessageCell.swift in Sources */,
 				48583BB321B1A53C0093B2EF /* RoundedButton.swift in Sources */,
 				48980F7921BECDD200583163 /* Message.swift in Sources */,
 				48106AE421B5E3EA0019B24B /* Channel.swift in Sources */,
