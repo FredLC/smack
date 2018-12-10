@@ -75,6 +75,7 @@
                     </view>
                     <connections>
                         <outlet property="burgerBtn" destination="4tq-x4-CV6" id="ZUt-Me-TIQ"/>
+                        <outlet property="channelNameLbl" destination="v8z-Qr-rZj" id="tPF-Pc-zHO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TvJ-9p-5xR" userLabel="First Responder" sceneMemberID="firstResponder"/>
